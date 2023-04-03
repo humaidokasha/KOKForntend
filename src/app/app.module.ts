@@ -14,12 +14,22 @@ import { LocalCacheService } from './services/local-cache.service';
 import { CanActivateAuthLayoutGuard } from './services/guards/can-activate-auth-layout.guard';
 import { MessageService } from 'primeng/api';
 import { ToastModule } from 'primeng/toast';
+import { ForgotPasswordComponent } from './layout/forgot-password/forgot-password.component';
+import { SignUpComponent } from './layout/sign-up/sign-up.component';
+import { DisclaimerComponent } from './layout/disclaimer/disclaimer.component';
+import { StartComponent } from './layout/start/start.component';
+import { EvidenceComponent } from './layout/evidence/evidence.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MainComponent,
-    AuthComponent
+    AuthComponent,
+    ForgotPasswordComponent,
+    SignUpComponent,
+    DisclaimerComponent,
+    StartComponent,
+    EvidenceComponent
   ],
   imports: [
     BrowserModule,
